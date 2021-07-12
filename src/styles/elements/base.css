@@ -4,6 +4,7 @@ body {
 }
 
 img {
-	width: 70px;
-	height: 95px;
+	height: auto;
+	width: auto;
+	max-width: 100%;
 }
