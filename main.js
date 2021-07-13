@@ -2,10 +2,13 @@ import "./src/styles/settings/colors.css";
 import "./src/styles/generic/generic.css";
 import "./src/styles/tools/NessBorder/styles.css";
 import "./src/styles/elements/base.css";
-import CardGame from "./src/components/CardGame";
+import BoardGame from "./src/objects/BoardGame";
+
 
 
 const $root = document.querySelector("#root");
-$root.insertAdjacentHTML("beforeend", CardGame());
+const $htmlBoardGame  = BoardGame(3);
+
+$root.insertAdjacentHTML("beforeend", $htmlBoardGame );
 
    
