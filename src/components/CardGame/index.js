@@ -1,13 +1,13 @@
-import "./style.css";
+import './style.css'
 
-function CardGame() {
-	return /* html */ `
+function CardGame(icon = 'logo-pokebola', alt = 'Imagem de uma Pokébola') {
+  return /* html */ `
   <article class="c-card-game">
-  <img src="images/logo-pokebola.png" alt="Imagem de uma pokébola" 
-  class="c-icon" />
+  <img src="images/${icon}.png" alt="${alt}" 
+   />
   </article>
   
-  `;
+  `
 }
 
-export default CardGame;
+export default CardGame
