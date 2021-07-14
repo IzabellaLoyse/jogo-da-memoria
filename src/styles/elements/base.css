@@ -1,6 +1,9 @@
 body {
  --background-app: var(--color-pomb-and-power);
  background-color: var(--background-app);
+ max-width: 20rem;
+ margin-left: auto;
+ margin-right: auto;
 }
 
 img {

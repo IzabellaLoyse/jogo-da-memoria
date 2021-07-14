@@ -1,0 +1,5 @@
+.l-board-game {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+}
