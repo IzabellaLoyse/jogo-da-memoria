@@ -1,13 +1,21 @@
+html,
 body {
- --background-app: var(--color-pomb-and-power);
- background-color: var(--background-app);
- max-width: 20rem;
- margin-left: auto;
- margin-right: auto;
+	height: 100%;
+	font-size: 62.5%;
+}
+
+
+body {
+  --background-app: var(--color-pomb-and-power);
+  background-color: var(--background-app);
+  font-family: 'Press Start 2P', cursive;
+  max-width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 img {
-	height: auto;
-	width: auto;
-	max-width: 100%;
+  height: auto;
+  width: auto;
+  max-width: 100%;
 }
